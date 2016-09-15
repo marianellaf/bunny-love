@@ -1,0 +1,102 @@
+
+body{
+	font-family: 'Prompt', sans-serif;
+	background-color: #ECF7FB;
+	margin:0;
+}
+/*parte paty*/
+.container-total{
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0;
+}
+.container-x2{
+	width: 80%;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+h2{
+	display: inline;
+	float: left;
+	padding: 5px;
+	font-family: 'Baloo Paaji', cursive;
+	font-size: 30px;
+	color: white ;
+}
+.titulo{
+	font-family: 'Prompt', sans-serif;
+	font-size: 30px;
+	color: #F37673;
+}
+.fondo{
+	background-color: #037F99
+}
+ul li{
+	
+	margin-left: 10px;
+	list-style: none;
+	display: inline;
+	float: left;
+	margin-top: 25px;
+}
+ul li a{
+	text-decoration: none;
+	color:white;
+	font-family: 'Prompt', sans-serif;
+	font-size: 15px;
+	padding: 12px;
+	
+}
+.banner{
+	background-image: url(../img/img-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30px;
+}
+.cuadro{
+	width: 70%;
+	margin: 0 auto;
+	background-color: rgba(9,123,141,0.7);
+}
+.cuadro h3{
+	padding: 20px;
+	font-family: 'Baloo Paaji', cursive;
+	font-size: 75px;
+	color: #F18380;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom:0;
+}
+.cuadro p{
+	color:white;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Prompt', sans-serif;
+	padding: 20px;
+	margin-bottom: 30px;
+	font-style: italic;
+	
+}
+
+.cuadrado{
+	text-align: center;
+	background-color: #037F99;
+	height: 320px;
+	display: inline-block;
+	border:7px solid white;
+}
+
+.cuadrado img{
+	width: 100%;
+}
+
+.cuadrado h1{
+	color: #FF7673;
+	font-family: 'Baloo Paaji', cursive;
+	font-size: 90%;
+}
+.cuadrado p{
+	color: white;
+	font-family: 'Prompt', sans-serif;
+	font-size: 90%;
+}
