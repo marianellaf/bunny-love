@@ -336,7 +336,7 @@ ul li a{
 	.mrg1{
 		margin-right: 8px;
 		position: absolute;
-    	top: 15%;
+    	top: 8%;
     	right: 2%;
 	}
 	.banner{
@@ -428,32 +428,139 @@ ul li a{
 
 
 
-@media only screen and(max-width : 479px) {
-	/*
-		Grid
-	*/
-	
+@media only screen and (max-width : 479px) {
 
-	.container {
-		width: 96%;
+	h2 {
+	display: inline;
+	float: left;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-family: 'Baloo Paaji', cursive;
+	font-size: 30px;
+	color: blue;
 	}
-
+	.margin-pad {	
+	margin-left: 1px;
+	list-style: none;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+	.menu-link {
+	text-decoration: none;
+	color:white;
+	font-family: 'Prompt', sans-serif;
+	font-size: 10px;		
+	}
+	.banner{
+	background-image: url(../img/img-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;	
+	}
 	.col-1, .col-2, .col-3, .col-4, .col-5, .col-6,
 	.col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
-    	float: none;
-    	width: 100%;
- 	}
-
- 	.col-offset-1, .col-offset-2, .col-offset-3, .col-offset-4,
- 	.col-offset-5, .col-offset-6, .col-offset-7, .col-offset-8,
- 	.col-offset-9, .col-offset-10, .col-offset-11, .col-offset-12 {
- 		width: 0% !important;
- 		display: none;
- 	}
-
- 	.box-margin {
-		margin: 0 10px 0 10px;
+    float: left;
 	}
+	.dspl-none-h{
+	display: initial;
+	}
+	.dspl-none-m{
+		display: none;
+	}
+	.padbt-txt{
+		font-size: 30px;
+	}
+	.mrg1{
+		margin-right: 8px;
+		position: absolute;
+    	top: 15%;
+    	right: 2%;
+	}
+	.banner{
+		background-image: url(../img/img-1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: top;
+		padding: 30px;
+		zoom:0.7;
+	}
+
+ 	ul:before,
+	ul:after {
+  	display: block;
+  	line-height: 0;
+  	content: "";
+	}
+	.row:before, .row:after {
+    	display: block;
+    	line-height: 0;
+    	content: "";
+	}
+	.row:after {
+    	clear: both;
+	}
+
+	ul:after {
+  	clear: both;
+	}
+	.margheader{
+		margin: 0px;
+	}
+	.container-x2{
+		width: 90%;
+		box-sizing: border-box;
+		margin: 0 auto;
+	}
+	.cuadro{
+		width: 99%;
+		margin: 0 auto;
+		background-color: rgba(9,123,141,0.7);
+	}
+	.cuadro h3{
+		padding: 30px;
+		font-family: 'Baloo Paaji', cursive;
+		font-size: 75px;
+		color: #F18380;
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom:0;
+	}
+	.cuadro p{
+		color:white;
+		text-align: center;
+		font-size: 20px;
+		font-family: 'Prompt', sans-serif;
+		padding: 20px;
+		margin-bottom: 35px;
+		font-style: italic;	
+	}
+	.cuadrado{
+		height: 100%;
+	}
+	.marg-der{
+		margin-right: 15%;
+	}
+	.marg-izq{
+		margin-left: 5%;
+	}
+	.muchos-conejitos{
+		background-image: url(../img/bunny-head.png);
+		background-position: right;
+		zoom: 0.1;
+		background-repeat: repeat-x;
+		padding-top: 6%;
+		padding-bottom: 5%;	
+	}
+	.mrg-lat-sect{
+    	margin-left: 25px;
+    	margin-right: 23px;
+	}
+	.hamburg{
+		float: right;
+    	min-height: 1px;
+	}
+	
 }
 
 @media only screen and (min-width: 480px) and (max-width: 768px){
