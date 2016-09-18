@@ -79,7 +79,7 @@ ul li a{
 	color:white;
 	font-family: 'Prompt', sans-serif;
 	font-size: 15px;
-	padding: 12px;
+	padding: 10px;
 	
 }
 .banner{
@@ -292,6 +292,9 @@ ul li a{
 	/*
 		Grid
 	*/
+	.container-fluid{
+		width: 100%;
+	}
 	h2 {
 	display: inline;
 	float: left;
